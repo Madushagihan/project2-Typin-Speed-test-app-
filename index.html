@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Speed Test</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<script src="script.js"></script>
+<body>
+  <div class="typing-test-container">
+    <h1><i class="fas fa-keyboard"></i> Typing Speed Test</h1>
+    
+    <div class="test-info">
+      <div class="info-box">
+        <h2>Time Remaining</h2>
+        <p id="timer">60s</p>
+      </div>
+      <div class="info-box">
+        <h2>Words Per Minute</h2>
+        <p id="wpm">0</p>
+      </div>
+      <div class="info-box">
+        <h2>Accuracy</h2>
+        <p id="accuracy">100%</p>
+      </div>
+    </div>
+    
+    <div class="progress-bar">
+      <div class="progress" id="progress"></div>
+    </div>
+    
+    <div class="text-display" id="textDisplay">
+      Click Start Test to begin the typing test. You will have 60 seconds to type as much as possible.
+    </div>
+    
+    <input type="text" class="typing-input" id="typingInput" placeholder="Click here and start typing..." disabled>
+    
+    <div class="controls">
+      <button id="startBtn"><i class="fas fa-play"></i> Start Test</button>
+      <button id="resetBtn"><i class="fas fa-redo"></i> Reset Test</button>
+    </div>
+    
+    <div class="results" id="results">
+      <h2><i class="fas fa-trophy"></i> Test Results</h2>
+      <div class="results-grid">
+        <div class="result-box">
+          <h3>Words Per Minute</h3>
+          <p id="resultWpm">0</p>
+        </div>
+        <div class="result-box">
+          <h3>Accuracy</h3>
+          <p id="resultAccuracy">100%</p>
+        </div>
+        <div class="result-box">
+          <h3>Total Words</h3>
+          <p id="resultWords">0</p>
+        </div>
+        <div class="result-box">
+          <h3>Total Characters</h3>
+          <p id="resultChars">0</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="keyboard">
+      <kbd>Q</kbd>
+      <kbd>W</kbd>
+      <kbd>E</kbd>
+      <kbd>R</kbd>
+      <kbd>T</kbd>
+      <kbd>Y</kbd>
+      <kbd>U</kbd>
+      <kbd>I</kbd>
+      <kbd>O</kbd>
+      <kbd>P</kbd>
+      <br>
+      <kbd>A</kbd>
+      <kbd>S</kbd>
+      <kbd>D</kbd>
+      <kbd>F</kbd>
+      <kbd>G</kbd>
+      <kbd>H</kbd>
+      <kbd>J</kbd>
+      <kbd>K</kbd>
+      <kbd>L</kbd>
+      <br>
+      <kbd>Z</kbd>
+      <kbd>X</kbd>
+      <kbd>C</kbd>
+      <kbd>V</kbd>
+      <kbd>B</kbd>
+      <kbd>N</kbd>
+      <kbd>M</kbd>
+      
+    </div>
+  </div>
+
+  
+</body>
+</html>
